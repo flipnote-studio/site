@@ -4,6 +4,13 @@
     src: url('Zyzol.otf')
 }
 
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition-duration: 0s !important
+    }
+}
+
 @keyframes scroll {
     0% {background-position: 0 0}
     to {background-position: 16px 16px}
